@@ -1,0 +1,71 @@
+{
+    "textures": {
+        "stone": "elysium:blocks/palestone",
+        "top": "elysium:blocks/crafting_pillar_top",
+        "side": "elysium:blocks/crafting_pillar_side",
+        "particle": "elysium:blocks/crafting_pillar_side"
+    },
+    "elements": [
+        {
+            "name": "Top",
+            "from": [ 0.0, 14.0, 0.0 ],
+            "to": [ 16.0, 16.0, 16.0 ],
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0.0, 2.0, 16.0, 4.0 ], "cullface": "north"  },
+                "east": { "texture": "#stone", "uv": [ 0.0, 4.0, 16.0, 6.0 ] , "cullface": "east" },
+                "south": { "texture": "#stone", "uv": [ 0.0, 12.0, 16.0, 14.0 ] , "cullface": "south" },
+                "west": { "texture": "#stone", "uv": [ 0.0, 14.0, 16.0, 16.0 ] , "cullface": "west" },
+                "up": { "texture": "#top", "uv": [ 0.0, 0.0, 16.0, 16.0 ] , "cullface": "up" },
+                "down": { "texture": "#stone", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "Middle",
+            "from": [ 2.0, 1.0, 2.0 ],
+            "to": [ 14.0, 15.0, 14.0 ],
+            "faces": {
+                "north": { "texture": "#side", "uv": [ 2.0, 1.0, 14.0, 15.0 ]},
+                "east": { "texture": "#side", "uv": [ 2.0, 1.0, 14.0, 15.0 ] },
+                "south": { "texture": "#side", "uv": [ 2.0, 1.0, 14.0, 15.0 ] },
+                "west": { "texture": "#side", "uv": [ 2.0, 1.0, 14.0, 15.0 ]}
+            }
+        },
+        {
+            "name": "BottomSmall",
+            "from": [ 1.0, 2.0, 1.0 ],
+            "to": [ 15.0, 3.0, 15.0 ],
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0.0, 1.0, 14.0, 2.0 ] },
+                "east": { "texture": "#stone", "uv": [ 0.0, 5.0, 14.0, 6.0 ] },
+                "south": { "texture": "#stone", "uv": [ 0.0, 4.0, 14.0, 5.0 ] },
+                "west": { "texture": "#stone", "uv": [ 0.0, 8.0, 14.0, 9.0 ] },
+                "up": { "texture": "#stone", "uv": [ 1.0, 2.0, 15.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "TopSmall",
+            "from": [ 1.0, 13.0, 1.0 ],
+            "to": [ 15.0, 14.0, 15.0 ],
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0.0, 9.0, 14.0, 10.0 ]},
+                "east": { "texture": "#stone", "uv": [ 0.0, 8.0, 14.0, 9.0 ] },
+                "south": { "texture": "#stone", "uv": [ 0.0, 7.0, 14.0, 8.0 ] },
+                "west": { "texture": "#stone", "uv": [ 0.0, 9.0, 14.0, 10.0 ] },
+                "down": { "texture": "#stone", "uv": [ 0.0, 0.0, 14.0, 14.0 ] }
+            }
+        },
+        {
+            "name": "Bottom",
+            "from": [ 0.0, 0.0, 0.0 ],
+            "to": [ 16.0, 2.0, 16.0 ],
+            "faces": {
+                "north": { "texture": "#stone", "uv": [ 0.0, 2.0, 16.0, 4.0 ], "cullface": "north"  },
+                "east": { "texture": "#stone", "uv": [ 0.0, 4.0, 16.0, 6.0 ] , "cullface": "east" },
+                "south": { "texture": "#stone", "uv": [ 0.0, 12.0, 16.0, 14.0 ], "cullface": "south"  },
+                "west": { "texture": "#stone", "uv": [ 0.0, 14.0, 16.0, 16.0 ] , "cullface": "west" },
+                "up": { "texture": "#stone", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 90 },
+                "down": { "texture": "#stone", "uv": [ 0.0, 0.0, 16.0, 16.0 ] , "cullface": "down" }
+            }
+        }
+    ]
+}

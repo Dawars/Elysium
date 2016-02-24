@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"stage=0,type=fostimber": { "model": "elysium:fostimber_sapling" },
+		"stage=1,type=fostimber": { "model": "elysium:fostimber_sapling" },
+		"stage=0,type=gildensilv": { "model": "elysium:gildensilv_sapling" },
+		"stage=1,type=gildensilv": { "model": "elysium:gildensilv_sapling" }
+	}
+}

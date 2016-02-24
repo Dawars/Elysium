@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"check_decay=true,decayable=true,variant=fostimber": { "model": "elysium:fostimber_leaves" },
+		"check_decay=true,decayable=false,variant=fostimber": { "model": "elysium:fostimber_leaves" },
+		"check_decay=false,decayable=false,variant=fostimber": { "model": "elysium:fostimber_leaves" },
+		"check_decay=false,decayable=true,variant=fostimber": { "model": "elysium:fostimber_leaves" },
+
+		"check_decay=true,decayable=true,variant=gildensilv": { "model": "elysium:gildensilv_leaves" },
+		"check_decay=true,decayable=false,variant=gildensilv": { "model": "elysium:gildensilv_leaves" },
+		"check_decay=false,decayable=false,variant=gildensilv": { "model": "elysium:gildensilv_leaves" },
+		"check_decay=false,decayable=true,variant=gildensilv": { "model": "elysium:gildensilv_leaves" }
+	}
+}

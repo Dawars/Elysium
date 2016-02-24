@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "elysium:blocks/fostimber_sapling"
+    }
+}

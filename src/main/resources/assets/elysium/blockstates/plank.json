@@ -1,0 +1,6 @@
+{
+	"variants": {
+		"variant=fostimber": { "model": "elysium:fostimber_plank" },
+		"variant=gildensilv": { "model": "elysium:gildensilv_plank" }
+	}
+}

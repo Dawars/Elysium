@@ -1,0 +1,17 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"axis=x,variant=fostimber": { "model": "cube_column",
+			"textures": {"end": "elysium:blocks/log_fostimber_top","side": "elysium:blocks/log_fostimber"}, "x": 90, "y": 90 },
+		"axis=y,variant=fostimber": { "model": "cube_column",
+			"textures": {"end": "elysium:blocks/log_fostimber_top","side": "elysium:blocks/log_fostimber"} },
+		"axis=z,variant=fostimber": { "model": "cube_column",
+			"textures": {"end": "elysium:blocks/log_fostimber_top","side": "elysium:blocks/log_fostimber"}, "x": 90 },
+		"axis=x,variant=gildensilv": { "model": "cube_column",
+			"textures": {"end": "elysium:blocks/log_gildensilv_top","side": "elysium:blocks/log_gildensilv"}, "x": 90, "y": 90 },
+		"axis=y,variant=gildensilv": { "model": "cube_column",
+			"textures": {"end": "elysium:blocks/log_gildensilv_top","side": "elysium:blocks/log_gildensilv"} },
+		"axis=z,variant=gildensilv": { "model": "cube_column",
+			"textures": {"end": "elysium:blocks/log_gildensilv_top","side": "elysium:blocks/log_gildensilv"}, "x": 90 }
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north":    { "model": "elysium:crafting_pillar" },
+		"facing=south":    { "model": "elysium:crafting_pillar", "y": 180 },
+		"facing=east":    { "model": "elysium:crafting_pillar", "y": 90 },
+		"facing=west":    { "model": "elysium:crafting_pillar", "y": 270 }
+	}
+}

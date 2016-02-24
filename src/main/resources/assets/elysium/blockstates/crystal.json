@@ -1,0 +1,6 @@
+{
+	"variants": {
+		"variant=pure": { "model": "elysium:pure_crystal" },
+		"variant=corrupted": { "model": "elysium:corrupted_crystal" }
+	}
+}
