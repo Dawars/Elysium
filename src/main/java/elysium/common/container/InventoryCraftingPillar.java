@@ -2,13 +2,14 @@ package elysium.common.container;
 
 import elysium.api.crafting.ICraftingPillar;
 import elysium.common.tiles.crafting.TileCraftingPillar;
+import thaumcraft.api.items.ItemsTC;
+
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.ISidedInventory;
 import net.minecraft.inventory.InventoryCrafting;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
-import thaumcraft.common.items.wands.ItemWand;
 
 /**
  * Created by dawar on 2016. 02. 06..
@@ -98,7 +99,7 @@ public class InventoryCraftingPillar extends InventoryCrafting implements ISided
     }
 
     public boolean isItemValidForSlot(int i, ItemStack itemstack) {
-        return i == TileCraftingPillar.WAND_SLOT && itemstack.getItem() instanceof ItemWand;
+        return i == TileCraftingPillar.WAND_SLOT && itemstack.getItem() == ItemsTC.wand;
     }
 
     public boolean canInsertItem(int i, ItemStack itemstack, EnumFacing direction) {
